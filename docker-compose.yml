@@ -1,0 +1,12 @@
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5173:5173
+      - 4173:4173
+    volumes:
+      - ./docs:/app/docs
+    # localhostへのアクセスを紐付けるためループバックアドレスを設定
+    command: npm run docs:dev --host 0.0.0.0
