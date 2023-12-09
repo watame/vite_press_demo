@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // GitHubPagesにデプロイする際に base の指定が必須
+  // https://vitepress.dev/reference/site-config#base
+  base: '/vite_press_demo/',
   title: "仕様書めっちゃデモ",
   description: "A VitePress Site",
   themeConfig: {
