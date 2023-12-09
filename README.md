@@ -45,7 +45,11 @@ vite_press_demo-docs-1  |   ➜  Network: http://172.20.0.2:5173/vite_press_demo
 ```
 
 # 開発環境へのアクセス先
-- `http://localhost:5173/vite_press_demo/`
+下記URLにアクセスしてみてください👇 結構キレイなサイトが表示されます😄
+- http://localhost:5173/vite_press_demo/
+![image](https://github.com/watame/vite_press_demo/assets/16306537/2cd2c2fc-0149-46b1-8f65-b1146d3122c9)
+
+
 
 # ドキュメントの作り方
 公式サイトを見てね！
