@@ -7,14 +7,45 @@ VitePressのGitHubPagesデモ用レポジトリです。
 - GitHubPagesで仕様書が確認できるか
 
 # 動作環境
-- `node 18.7.0`
-    - `.node-version` に記載されたバージョン動作します
-    - `nodenv` がインストールされていればバージョン見てくるハズ
+Dockerかローカルマシンのnodeで動作させてください。
+- node
+    - `node 18.7.0`
+        - `.node-version` に記載されたバージョン動作します
+        - `nodenv` がインストールされていればバージョン見てくるハズ
+- docker
+    - DockerDesktopとか入れておけばOKです
 
 # 起動方法
-1. `npm install` で環境のインストール
-2. `npm run docs:dev` でホットリロード状態で起動
-    - `http://localhost:5173/` で確認できるよ！
+## ローカルのnodeで動かすとき
+下記のコマンドを順に入力してください。
+```
+npm install
+npm run docs:dev
+```
+
+正常に起動したら↓のようなログが表示されます。
+```
+vitepress v1.0.0-rc.31
+➜  Local:   http://localhost:5173/vite_press_demo/
+```
+
+
+## Dockerで動かすとき
+下記のコマンドを順に入力してください。
+```
+docker-compose up
+```
+
+正常に起動したら↓のようなログが表示されます。
+```
+vite_press_demo-docs-1  |   vitepress v1.0.0-rc.31
+vite_press_demo-docs-1  |
+vite_press_demo-docs-1  |   ➜  Local:   http://localhost:5173/vite_press_demo/
+vite_press_demo-docs-1  |   ➜  Network: http://172.20.0.2:5173/vite_press_demo/
+```
+
+# 開発環境へのアクセス先
+- `http://localhost:5173/vite_press_demo/`
 
 # ドキュメントの作り方
 公式サイトを見てね！
