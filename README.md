@@ -52,7 +52,8 @@ vite_press_demo-docs-1  |   ➜  Network: http://172.20.0.2:5173/vite_press_demo
 
 # GitHubPagesへの反映方法
 `docs`配下に設置したMarkdownファイルが `main` ブランチにPushされたタイミングで反映されます。
-色々いじってみてください。
+![watame_vite_press_demo__VitePressをGitHubPagesで運用するときのデモ](https://github.com/watame/vite_press_demo/assets/16306537/929143c3-a936-4366-a5ef-52b7a6812b4b)
+
 
 # ドキュメントの作り方
 公式サイトを見てね！
