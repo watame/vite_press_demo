@@ -8,5 +8,4 @@ services:
       - 4173:4173
     volumes:
       - ./docs:/app/docs
-    # localhostへのアクセスを紐付けるためループバックアドレスを設定
-    command: npm run docs:dev --host 0.0.0.0
+    command: npm run docs:dev
