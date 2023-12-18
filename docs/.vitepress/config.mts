@@ -5,21 +5,26 @@ export default defineConfig({
   // GitHubPagesにデプロイする際に base の指定が必須
   // https://vitepress.dev/reference/site-config#base
   base: '/vite_press_demo/',
-  title: "仕様書めっちゃデモ",
-  description: "A VitePress Site",
+  title: "仕様書デモ",
+  description: "VitePressで仕様書を管理できるか",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      {
+        text: 'サンプル画面',
+        items: [
+          { text: '機能一覧', link: '/functions' },
+        ]
+      }
     ],
 
     sidebar: [
+      { text: 'Home', link: '/' },
       {
-        text: 'Examples',
+        text: 'サンプル画面',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '機能一覧', link: '/functions' },
         ]
       }
     ],
