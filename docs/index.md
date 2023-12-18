@@ -18,8 +18,7 @@ features:
   - title: 機能一覧
     details: 機能一覧のサンプル
     link: /functions
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 画像添付サンプル
+    details: 画像添付のサンプル
+    link: /images
 ---

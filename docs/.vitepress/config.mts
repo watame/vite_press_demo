@@ -15,6 +15,7 @@ export default defineConfig({
         text: 'サンプル画面',
         items: [
           { text: '機能一覧', link: '/functions' },
+          { text: '画像添付サンプル', link: '/images' },
         ]
       }
     ],
@@ -25,6 +26,7 @@ export default defineConfig({
         text: 'サンプル画面',
         items: [
           { text: '機能一覧', link: '/functions' },
+          { text: '画像添付サンプル', link: '/images' },
         ]
       }
     ],
