@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "仕様書めっちゃデモ"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: 仕様書デモ
+  text: VitePressで仕様書を管理できるか
+  tagline: VitePressのお試しです
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
