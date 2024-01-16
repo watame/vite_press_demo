@@ -25,3 +25,10 @@
 ::: tip
 CCCは現状では検討中の機能のため、実装は未定
 :::
+
+## Mermaid表示
+
+```mermaid
+flowchart TD
+  Start --> Stop
+```
